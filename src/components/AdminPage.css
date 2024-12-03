@@ -1,0 +1,56 @@
+/* Tổng thể */
+.admin-page {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Cho phép cuộn dọc */
+    max-height: 90vh; /* Giới hạn chiều cao tối đa */
+}
+
+/* Tiêu đề */
+.admin-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form nhập đơn hàng */
+.order-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Danh sách đơn hàng */
+.order-list {
+    margin-top: 20px;
+    max-height: 60vh; /* Giới hạn chiều cao danh sách đơn hàng */
+    overflow-y: auto; /* Cho phép cuộn dọc trong danh sách */
+}
+
+.order-list li {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+.order-list li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Hình ảnh món ăn */
+.order-list img {
+    max-width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

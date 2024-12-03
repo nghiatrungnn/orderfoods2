@@ -1,0 +1,49 @@
+/* .food-table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp các viền ô lại với nhau */
+    margin-top: 20px; /* Khoảng cách phía trên bảng */
+}
+
+.food-table th, .food-table td {
+    text-align: left; /* Căn trái chữ để dễ đọc hơn */
+    padding: 10px; /* Khoảng cách bên trong ô */
+    border: 1px solid #ddd; /* Thêm viền cho ô */
+}
+
+.food-table th {
+    background-color: #f2f2f2; /* Màu nền cho tiêu đề */
+    font-weight: bold; /* Làm đậm chữ tiêu đề */
+}
+
+.food-image {
+    width: 100px; /* Chiều rộng cố định cho hình ảnh */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+}
+
+.food-form {
+    margin-top: 20px; /* Khoảng cách phía trên biểu mẫu */
+    display: flex; /* Sử dụng flexbox để căn chỉnh các trường nhập */
+    justify-content: space-between; /* Căn đều các trường nhập */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.food-form input {
+    margin-right: 10px; /* Khoảng cách giữa các trường nhập */
+    padding: 5px; /* Padding cho các trường nhập */
+    flex: 1; /* Để các trường nhập có chiều rộng bằng nhau */
+    border: 1px solid #ccc; /* Viền cho các trường nhập */
+    border-radius: 4px; /* Bo góc cho các trường nhập */
+}
+
+.food-form button {
+    padding: 5px 10px; /* Padding cho nút */
+    background-color: #4CAF50; /* Màu nền cho nút */
+    color: white; /* Màu chữ cho nút */
+    border: none; /* Không viền cho nút */
+    border-radius: 4px; /* Bo góc cho nút */
+    cursor: pointer; /* Hiển thị con trỏ khi di chuột lên nút */
+}
+
+.food-form button:hover {
+    background-color: #45a049; /* Màu nền khi di chuột lên nút */
+} */
